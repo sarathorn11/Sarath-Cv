@@ -1,4 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 body{
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    /* background:#403F3F; */
+    background-image:url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:30px 70px 0px 80px;
+    height: 100vh;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo{
+    display: flex;
+
+}
+.header .logo img{
+    width: 7rem;
+}
+.header a,footer a{
+    text-decoration: none;
+    color: white;
+
+}
+.header .logo i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+i span{
+    color: #FB3B52;
+}
+
+/* nav */
+.navbar{
+    display:flex;
+}
+.navbar li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.navbar li:hover{
+    color:#FB3B52 ;
+}
+#focus{
+    color:#FB3B52;
+    font-weight: bold;
+}
+
+/* main-header */
+.main-header{
+    margin-top:5%;
+}
+.main-header .h3{
+    font-size: 3rem;
+    /* font-weight: bold; */
+
+}
+.main-header .h1{
+    font-size: 8.5rem;
+    font-weight: bold;
+    /* margin-top: -rem; */
+    text-shadow: 0rem 0.1rem 1rem rgb(8, 70, 73);
+}
+.main-header .h4{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.btn{
+    background: #FB3B52; 
+    border: none;   
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background: rgb(102, 98, 98);
+}
+.main-header .btn-header{
+    margin-top: 3rem;
+    padding: 20px 90px;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background: #3d3a3a;
+    display: flex;
+    padding: 4.5rem;;
+    
+}
+.footer .logo{
+    width: 15%;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.footer .logo img{
+    width: 80%;
+}
+footer .menu{
+    text-align: center;
+    margin: auto;
+}
+.footer .infor{
+    text-align: center;
+    width: 22%;
 }
