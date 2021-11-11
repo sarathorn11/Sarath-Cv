@@ -565,10 +565,13 @@ footer .fa{
         
         
           }
-    .add-photo-home1 {
-        width: 31%;
-
-    }
+          .box{
+            background-size: cover;
+            background-position: center;
+            width: 30.5%;
+            text-align: center;
+           
+          }
 
 
 
