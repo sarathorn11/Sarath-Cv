@@ -58,7 +58,7 @@ i span{
     font-size: 1.4rem;
     text-transform: uppercase;
 }
-.navbar li:hover{
+.navbar li a:hover{
     color:#FB3B52 ;
 }
 #focus{
@@ -247,9 +247,6 @@ footer .fa{
     footer .logo div i{
         font-size: 2rem;
     }
-    footer .infor .btn{
-        margin-top: 1rem;
-    }
 
 
 
@@ -257,7 +254,7 @@ footer .fa{
 }
 
 
-@media(max-width:528px){
+@media(max-width:500px){
     body{
         background: rgb(15, 161, 35);
     }
@@ -282,54 +279,58 @@ footer .fa{
         display: none;
      
     }
-}
-
-
-
-
-
- /* footer */
- footer{
-    padding: 1rem;
-    display: block;
-    
-}
-footer .infor h1,footer .infor p{
-    display: none;
-}
-footer .infor{
-    width: 100%;
-}
-footer .infor .btn{
-    width: 100%;
-    display: flex;
-    text-align: center;
-}
-.footer .menu .navbar li{
-    font-size: 1rem;
-}
-
-footer .fa{
-    width: 3.8rem;
-    height: 3.8rem;
-    margin: 3px;
-    font-size: 2rem;
-}
-footer .logo img{
-    display: none;
-}
-footer .logo div i{
-    display: none;
-}
-
-
-
-}
-
-
-
-
-
 
 /* responsive footer */
+    footer{
+        padding: 1rem;
+        display: block;
+    
+    }
+    .footer .menu .navbar li{
+        font-size: 1rem;
+    }
+    .footer .infor{
+        width: 20%;
+    }
+    .footer .infor p ,.footer .infor h1{
+     display: none;
+    }
+
+
+    footer .fa{
+        width: 3.8rem;
+        height: 3.8rem;
+        margin: 3px;
+        font-size: 2rem;
+    }
+    footer h1{
+
+        font-size: 1.5rem;
+    }
+    footer .logo div i{
+        display: none;
+    }
+    footer .logo img{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
