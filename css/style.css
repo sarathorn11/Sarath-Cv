@@ -545,6 +545,7 @@ footer .fa{
     }
     /* box */
     .box-home{
+        width: 31%;
             grid-template-areas:
             'box1 '
             'box2'
@@ -554,12 +555,14 @@ footer .fa{
         
           }
     .box-hobbies{
+        width: 31%;
             grid-template-areas:
             'box1 '
             'box2'
             'box3'
             'box4'
             'box5';
+        
         
           }
     .box{
