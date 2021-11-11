@@ -227,23 +227,23 @@ i span{
     
     }
     .add-photo-home1{
-        background-image:url(../images/d.jpg);
+        background-image:url(../images/homepage.jpg);
 
     }
     .add-photo-home2{
 
-        background-image:url(../images/d.jpg);
+        background-image:url(../images/EDU.jpg);
 
     }
     .add-photo-home3{
-        background-image:url(../images/d.jpg);
+        background-image:url(../images/hob.jpg);
     }
     .add-photo-home4{
-        background-image:url(../images/d.jpg);
+        background-image:url(../images/CONTACT.jpeg);
 
     }
     .add-photo-home5{
-        background-image:url(../images/d.jpg);
+        background-image:url(../images/ho.jpg);
 
     }
 
@@ -563,6 +563,17 @@ footer .fa{
             'box4'
             'box5';
         
+        
+          }
+          .boxs{
+            margin-left: 1re;
+          }
+          .box{
+            background-size: cover;
+            background-position: center;
+            padding: 8rem 0rem;
+            text-align: center;
+           
           }
 
 
