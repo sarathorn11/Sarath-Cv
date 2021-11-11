@@ -11,7 +11,7 @@ body{
     background-size: cover;
     background-position: center;
     padding:30px 70px 0px 80px;
-    height: 100vh;
+    height: 90vh;
 }
 .small-header{
     background:#403F3F;
@@ -27,10 +27,11 @@ body{
 }
 .header .logo{
     display: flex;
+   
 
 }
 .header .logo img{
-    width: 7rem;
+    width: 9rem;
 }
 .header a,footer a{
     text-decoration: none;
@@ -41,7 +42,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 i span{
@@ -51,6 +52,7 @@ i span{
 /* nav */
 .navbar{
     display:flex;
+    margin-top: 1.2rem;
 }
 .navbar li{
     list-style: none;
@@ -72,13 +74,11 @@ i span{
 }
 .main-header .h3{
     font-size: 3rem;
-    /* font-weight: bold; */
 
 }
 .main-header .h1{
     font-size: 8.5rem;
     font-weight: bold;
-    /* margin-top: -rem; */
     text-shadow: 0rem 0.1rem 1rem rgb(8, 70, 73);
 }
 .main-header .h4{
@@ -129,7 +129,7 @@ footer{
 .footer .logo{
     width: 15%;
     display: block;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .footer .logo img{
@@ -170,7 +170,7 @@ footer .fa{
     font-size: 1.2rem;
 }
 .footer .infor .btn{
-    padding: 15px 35px;
+    padding: 20px 45px;
 }
 /* reponsive header */
 @media(max-width:1024px){
@@ -204,6 +204,9 @@ footer .fa{
     .main-header .btn-header{
         margin-top: 2rem;
         padding: 10px 30px;
+    }
+    .header .navbar,header .logo{
+        margin-top: -1rem;
     }
 
     /* ========== */
