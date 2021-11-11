@@ -566,11 +566,9 @@ footer .fa{
         
           }
           .boxs{
-            margin-left: 15px;
+            width: 50px;
           }
           .box{
-            background-size: cover;
-            background-position: center;
             width: 110px;
             text-align: center;
            
