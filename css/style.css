@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    background: #6C6C6C;
     font-family: 'Roboto', sans-serif;
 }
 .big-header{
@@ -105,6 +106,10 @@ i span{
 
 
 /* body==-------------------------------------------------- */
+.body{
+    width: 96%;
+    margin: auto;
+}
 
 /* name  of pang ------------- */
 .name{
@@ -125,7 +130,32 @@ i span{
     margin-bottom: 1.52rem;
 
 }
+/* coard-col */
+.coard-col{
+    display: flex;
+    background: rgb(209, 204, 204);
+    padding: 20px;
+}
+.coard-col img{
+    height: 55vh;
+    margin-right: 3rem;
+}
+.coard-col h1,.coard-col p{
+    color: #000;
+}
+.coard-col h1{
+    font-size: 2.5rem;
+}
+.coard-col p{
+    font-size: 1.4rem;
+}
 
+.coard-col span{
+    color: #FB3B52;
+}
+.coard-col .btn-card{
+    padding: 15px 55px;
+}
 
 
 
@@ -242,11 +272,6 @@ footer .fa{
     /* body================== */
 
     /* benner-- */
-    .benner img{
-        margin: 0;
-        
-
-    }
 
     /* name---------- */
     .name{
@@ -265,6 +290,15 @@ footer .fa{
        display: none;
     
     }
+    /* coard-col */
+    .coard-col{
+        display: block;
+        text-align: center;
+    }
+    .coard-col .d{
+       display: none;
+    }
+  
 
 
 
@@ -340,6 +374,11 @@ footer .fa{
 
     /* ----------------------------- */
        /* body================== */
+    
+       /* benner */
+    .benner img{
+        display: none;
+    }
     /* name---------- */
     .name{
         width: 100%;
@@ -356,6 +395,18 @@ footer .fa{
     .name span{
        display: none;
     
+    }
+      /* coard-col */
+      .coard-col{
+        display: block;
+        text-align: center;
+    }
+    .coard-col h1{
+        font-size: 2rem;
+        margin-bottom: -1rem;
+    }
+    .coard-col p span{
+       display: none;
     }
 
 
