@@ -135,6 +135,10 @@ i span{
     display: flex;
     background: rgb(209, 204, 204);
     padding: 20px;
+    margin-bottom: 3rem;
+}
+.coard-col:hover{
+    box-shadow: 0 0.5rem 1rem #FB3B52;
 }
 .coard-col img{
     height: 55vh;
@@ -157,6 +161,115 @@ i span{
     padding: 15px 55px;
 }
 
+/* ----------------- */
+/* nam-header */
+.nam-header{
+    text-align: center;
+    clip-path: polygon(65% 0, 60% 52%, 65% 100%, 35% 100%, 39% 52%, 35% 0);
+   background: #FB3B52;
+   padding: 5px 15px;
+}
+/* box============= */
+
+ .boxs {
+    display: grid;
+
+    grid-gap: 1rem;
+
+  }
+  .box-home{
+    grid-template-areas:
+    'box1 box1 box1 box1'
+    'box2 box2 box3 box4'
+    'box2 box2 box5 box5';
+
+  }
+  .box-hobbies{
+    grid-template-areas:
+    'box1 box1 box1 box1 box2'
+    'box3 box3 box4 box4 box2'
+    'box5 box5 box5 box5 box5';
+
+  }
+  .boxs a{
+      text-decoration: none;
+      font-size:2rem;
+      color: white;
+
+  }
+  .box{
+    background-size: cover;
+    background-position: center;
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+      grid-area: box1;
+
+
+  }
+  .box2{
+  
+    grid-area: box2;
+
+    }
+    .box3{
+      
+        grid-area: box3;
+    }
+    .box4{
+        grid-area: box4;
+    }
+    .box5{
+        grid-area: box5;
+    
+    }
+    .add-photo-home1{
+        background-image:url(../images/homepage.jpg);
+
+    }
+    .add-photo-home2{
+
+        background-image:url(../images/EDU.jpg);
+
+    }
+    .add-photo-home3{
+        background-image:url(../images/hob.jpg);
+    }
+    .add-photo-home4{
+        background-image:url(../images/CONTACT.jpeg);
+
+    }
+    .add-photo-home5{
+        background-image:url(../images/ho.jpg);
+
+    }
+
+    .add-photo-hobbies1{
+        background-image:url(../images/banner.jpg);
+
+    }
+    .add-photo-hobbies2{
+
+        background-image:url(../images/banner.jpg);
+
+    }
+    .add-photo-hobbies3{
+        background-image:url(../images/banner.jpg);
+    }
+    .add-photo-hobbies4{
+        background-image:url(../images/banner.jpg);
+
+    }
+    .add-photo-hobbies5{
+        background-image:url(../images/banner.jpg);
+
+    }
+
+
+
 
 
 
@@ -176,7 +289,8 @@ i span{
 footer{
     background: #3d3a3a;
     display: flex;
-    padding: 4.5rem;;
+    padding: 4.5rem;
+    margin-top: 3rem;
     
 }
 .footer .logo{
@@ -298,6 +412,16 @@ footer .fa{
     .coard-col .d{
        display: none;
     }
+
+    /* box */
+    .box-home{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
   
 
 
@@ -361,10 +485,16 @@ footer .fa{
     .big-header{
         background: #2f2f2f;
         height: 30vh;
+        position: sticky;
+        top: 0;
+        z-index: 99999;
     }
     .small-header{
         background: #2f2f2f;
-        padding: 5vh;
+        padding: 7vh;
+        position: sticky;
+        top: 0;
+        z-index: 99999;
 
     }
     .main-header{
@@ -413,6 +543,25 @@ footer .fa{
     .coard-col .p{
        display: none;
     }
+    /* box */
+    .box-home{
+            grid-template-areas:
+            'box1 '
+            'box2'
+            'box3'
+            'box4'
+            'box5';
+        
+          }
+    .box-hobbies{
+            grid-template-areas:
+            'box1 '
+            'box2'
+            'box3'
+            'box4'
+            'box5';
+        
+          }
 
 
 
@@ -461,9 +610,8 @@ footer .fa{
 
     }
     footer .infor .btn{
-        position: absolute;
-        padding: 10px 30px;
-        margin-left: 16.4%;
+        display: none;
+
     }
 
 
