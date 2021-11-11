@@ -394,18 +394,23 @@ footer .fa{
     }
     .name span{
        display: none;
+
     
     }
-      /* coard-col */
+      /* coard-col ------------------*/
       .coard-col{
         display: block;
         text-align: center;
+    }
+    .coard-col img{
+        margin-left: 3rem;
+
     }
     .coard-col h1{
         font-size: 2rem;
         margin-bottom: -1rem;
     }
-    .coard-col p span{
+    .coard-col .p{
        display: none;
     }
 
@@ -453,12 +458,12 @@ footer .fa{
     footer .infor{
         margin-top: 2vh;
         width: 100%;
-        background: #000;
+
     }
     footer .infor .btn{
         position: absolute;
         padding: 10px 30px;
-        margin-left:18.1%;
+        margin-left:18%;
     }
 
 
