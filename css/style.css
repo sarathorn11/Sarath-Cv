@@ -116,6 +116,9 @@ i span{
 
 
 
+
+
+
 /* footer */
 footer{
     background: #3d3a3a;
@@ -169,3 +172,63 @@ footer .fa{
 .footer .infor .btn{
     padding: 15px 35px;
 }
+/* reponsive header */
+@media(max-width:1024px){
+    body{
+        background: rgb(70, 5, 5);
+    }
+    .big-header{
+        padding:30px 40px 0px 40px;
+    }
+    .header .logo img{
+        width: 5rem;
+    }
+    .header .logo i{
+        font-size: 2rem;
+    }
+    .navbar li{
+        margin: 10px;
+        font-size: 1.1rem;
+
+
+}
+
+
+@media(max-width:528px){
+    body{
+        background: rgb(15, 161, 35);
+    }
+    .header .logo{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .big-header{
+        background: #2f2f2f;
+        height: 30vh;
+    }
+    .small-header{
+        background: #2f2f2f;
+        padding: 5vh;
+
+    }
+    .main-header{
+        display: none;
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive footer */
+
