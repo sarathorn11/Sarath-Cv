@@ -313,6 +313,16 @@ footer .fa{
     footer .logo img{
         display: none;
     }
+    footer .infor{
+        margin-top: 2vh;
+        width: 100%;
+        background: #000;
+    }
+    footer .infor .btn{
+        position: absolute;
+        width: 19vh;
+        margin-left: 12vh;
+    }
 
 
 
