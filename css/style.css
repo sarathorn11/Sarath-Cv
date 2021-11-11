@@ -320,7 +320,7 @@ footer .fa{
     }
     footer .infor .btn{
         position: absolute;
-        width: 19vh;
+        padding: 10px 30px;
         margin-left: 12vh;
     }
 
