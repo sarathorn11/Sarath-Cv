@@ -565,10 +565,13 @@ footer .fa{
         
         
           }
+          .boxs{
+            margin-left: 15px;
+          }
           .box{
             background-size: cover;
             background-position: center;
-            width: 141px;
+            width: 110px;
             text-align: center;
            
           }
