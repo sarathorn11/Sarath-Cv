@@ -8,7 +8,7 @@ body{
 }
 .big-header{
     
-    background-image:url(../images/banner.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
     padding:30px 70px 0px 80px;
@@ -165,15 +165,25 @@ i span{
 /* nam-header */
 .nam-header{
     text-align: center;
-    clip-path: polygon(65% 0, 60% 52%, 65% 100%, 35% 100%, 39% 52%, 35% 0);
-   background: #FB3B52;
-   padding: 5px 15px;
+    font-size: 2.2rem;
+    width: 13%;
+    margin: auto;
+    margin-bottom: 3rem;
+   border-bottom: 4px solid #FB3B52;
+   padding: 10px 20px;
+}
+.nam-header:hover{
+    text-shadow:0 0.1rem 1rem#FB3B52;
+}
+
+.nam-header span{
+    color:#FB3B52 ;
+
 }
 /* box============= */
 
  .boxs {
     display: grid;
-
     grid-gap: 1rem;
 
   }
@@ -191,13 +201,21 @@ i span{
     'box5 box5 box5 box5 box5';
 
   }
+  .box-edu{
+    grid-template-areas:
+    'box1 box2 box3';
+
+  }
   .boxs a{
       text-decoration: none;
-      font-size:2rem;
+      font-size:2.5rem;
       color: white;
 
   }
-  .box{
+  .boxs a:hover{
+      color: #FB3B52;
+  }
+  .box {
     background-size: cover;
     background-position: center;
     padding: 10rem;
@@ -205,6 +223,11 @@ i span{
     justify-content: center;
     align-items: center;
   }
+  .box:hover{
+      box-shadow:0 0.3rem 1rem #FB3B52;
+  }
+
+
   .box1{
       grid-area: box1;
 
@@ -227,44 +250,65 @@ i span{
     
     }
     .add-photo-home1{
-        background-image:url(../images/homepage.jpg);
-
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/homepage.jpg);
+    }
+    .add-photo-home1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/homepage.jpg);
+        
     }
     .add-photo-home2{
 
-        background-image:url(../images/EDU.jpg);
-
+        background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../images/EDU.jpg);
+    }
+    .add-photo-home2:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/EDU.jpg);
+        
     }
     .add-photo-home3{
-        background-image:url(../images/hob.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hob.jpg);
+    }
+    .add-photo-home3:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/hob.jpg);
+        
     }
     .add-photo-home4{
-        background-image:url(../images/CONTACT.jpeg);
-
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/CONTACT.jpeg);
+    }
+    .add-photo-home4:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/CONTACT.jpeg);
+        
     }
     .add-photo-home5{
-        background-image:url(../images/ho.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/ho.jpg);
 
+    }
+    .add-photo-home5:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/ho.jpg);
+        
     }
 
     .add-photo-hobbies1{
-        background-image:url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
 
+    }
+    .add-photo-hobbies1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/hob.jpg);
+        
     }
     .add-photo-hobbies2{
 
-        background-image:url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
 
     }
     .add-photo-hobbies3{
-        background-image:url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
     }
     .add-photo-hobbies4{
-        background-image:url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
 
     }
     .add-photo-hobbies5{
-        background-image:url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
 
     }
 
@@ -413,6 +457,18 @@ footer .fa{
        display: none;
     }
 
+    /* nam-header */
+    .nam-header{
+        background: none;
+        border-bottom: 3px solid #FB3B52 ;
+        width: 18%;
+        font-size: 1.8rem;    
+
+    }
+    .nam-header:hover{
+        text-shadow:0 0.1rem 1rem#FB3B52;
+    }
+
     /* box */
     .box-home{
         grid-template-areas:
@@ -420,6 +476,22 @@ footer .fa{
         'box2 box2'
         'box3 box4'
         'box5 box5';
+    
+      }
+      .box-hobbies{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
+      .box-edu{
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+    ;
     
       }
   
@@ -543,6 +615,19 @@ footer .fa{
     .coard-col .p{
        display: none;
     }
+
+    /* nam-header */
+    .nam-header{
+        border-bottom: 2px solid #FB3B52 ;
+        font-size: 1.3rem;
+        width: 30%;
+        margin-top:-1rem ;
+        margin-bottom: 1rem;
+        padding: 5px 10px;
+        
+    }
+
+
     /* box */
     .box-home{
         
@@ -563,7 +648,12 @@ footer .fa{
             'box4'
             'box5';
         
-        
+          }
+          .box-edu{
+            grid-template-areas:
+            'box1'
+            'box2'
+            'box3';
           }
           .boxs{
             margin-left: 1re;
