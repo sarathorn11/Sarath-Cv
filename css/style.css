@@ -288,29 +288,45 @@ i span{
     }
 
     .add-photo-hobbies1{
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/football.jpeg);
 
     }
     .add-photo-hobbies1:hover{
-        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/hob.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/chat\ with\ friend.jpg);
         
     }
     .add-photo-hobbies2{
 
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/chat\ with\ friend.jpg);
 
     }
     .add-photo-hobbies3{
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/ciyling.jpg);
     }
     .add-photo-hobbies4{
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/movie.jpg);
 
     }
     .add-photo-hobbies5{
-        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/banner.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/reading.jpeg);
 
     }
+    .add-photo-homet1{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/);
+
+    }
+    .add-photo-homet2{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/Campus-Information-570-x-300_570x300.jpg);
+
+    }
+    .add-photo-homet3{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/reading.jpeg);
+
+    }
+
+
+
+
 
 
 
