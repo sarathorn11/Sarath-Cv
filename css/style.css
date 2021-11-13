@@ -228,7 +228,7 @@ i span{
   .box {
     background-size: cover;
     background-position: center;
-    padding: 10rem;
+    padding: 10rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,6 +668,244 @@ footer .fa{
 }
 
 
+
+
+
+
+
+
+
+
+
+/* reponsive header--------------------------------------------- */
+@media(max-width:1390px){
+    body{
+        background: rgb(7, 177, 112);
+    }
+    /* header------------------------------------------ */
+    .big-header{
+        padding:40px 40px 0px 40px;
+        height: 80vh;
+    }
+    .small-header{
+        padding:25px 40px 10px 40px;
+    }
+    .header .logo img{
+        width: 5rem;
+    }
+    .header .logo i{
+        font-size: 2rem;
+    }
+    .navbar li{
+        font-size: 1.1rem;
+    }
+    .main-header .h3{
+        font-size: 2.5rem;
+        margin-bottom: -0.5rem;
+    }
+    .main-header .h1{
+        font-size: 5.5rem;
+    }
+    .main-header .h4{
+        font-size: 1.5rem;
+    }
+    .main-header .btn-header{
+        margin-top: 2rem;
+        padding: 10px 30px;
+    }
+    .header .navbar,header .logo{
+        margin-top: -1rem;
+    }
+
+    /* ========== */
+
+    /* body================== */
+
+    /* benner-- */
+
+    /* name---------- */
+    .name{
+        width: 100%;
+        display: flex;
+        margin-top: -1.52rem;
+    }
+    .name p{
+        width: 15%;
+
+
+    }
+    .name span{
+       width: 67.9%;
+    
+    }
+    /* coard-col */
+    .coard-col{
+        display: block;
+        text-align: center;
+    }
+    .coard-col img{
+        width: 42%;
+        margin-right: 0;
+    }
+    .coard-col .d{
+       display: none;
+    }
+    
+
+    /* nam-header */
+    .nam-header{
+        background: none;
+        border-bottom: 3px solid #FB3B52 ;
+        width: 19%;
+        font-size: 1.8rem;    
+
+    }
+    .nam-header:hover{
+        text-shadow:0 0.1rem 1rem#FB3B52;
+    }
+
+    /* box */
+    .box{
+        /* padding: 0; */
+    }
+    .box-home{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
+      .box-hobbies{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
+      .box-edu{
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+    ;
+    
+      }
+      .exper{
+        display: block;
+    }
+    .exper  .word{
+        width: 98%;
+        text-align: center;
+    }
+    .exper .gra{
+        width: 88%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .lain{
+        display: flex;
+    }
+    .gra h2{
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .card-row{
+        width: 32%;
+        background:rgb(209, 204, 204);
+        padding: 1rem 3rem;
+        text-align: center;
+        color: #1f1a1b;
+    }
+    .icon .fa{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+        font-size: 4.5rem;
+
+    }
+
+
+  
+
+
+
+
+
+
+    /* footer--------------------------------------- */
+    footer{
+        padding: 1rem;
+        
+    }
+    .footer .menu .navbar li{
+        font-size: 1rem;
+    }
+    .footer .infor{
+        width: 20%;
+    }
+    .footer .infor p span{
+        display: none;
+    }
+    .footer .infor p{
+        font-size: 0.8rem;
+
+    }
+    footer .fa{
+        width: 3.8rem;
+        height: 3.8rem;
+        margin: 3px;
+        font-size: 2rem;
+    }
+    footer h1{
+
+        font-size: 1.5rem;
+    }
+    footer .logo{
+        margin: 2rem 1rem;
+    }
+    footer .logo div i{
+        font-size: 2rem;
+    }
+
+
+
+
+}
+
+
+/* ------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* reponsive header--------------------------------------------- */
 @media(max-width:1024px){
     body{
@@ -758,9 +996,7 @@ footer .fa{
     }
 
     /* box */
-    .box{
-        /* padding: 0; */
-    }
+
     .box-home{
         grid-template-areas:
         'box1 box1'
