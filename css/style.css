@@ -744,9 +744,7 @@ footer .fa{
     }
     /* coard-col */
 
-    .coard-col img{
-       
-    }
+
     .coard-col h1{
         font-size: 1.8rem;
 
@@ -761,7 +759,6 @@ footer .fa{
     }
     
 
-    /* nam-header */
     .nam-header{
         background: none;
         border-bottom: 3px solid #FB3B52 ;
@@ -769,36 +766,6 @@ footer .fa{
         font-size: 1.8rem;    
 
     }
-    /* .nam-header:hover{
-        text-shadow:0 0.1rem 1rem#FB3B52;
-    } */
-
-    /* box */
-
-    /* .box-home{
-        grid-template-areas:
-        'box1 box1'
-        'box2 box2'
-        'box3 box4'
-        'box5 box5';
-    
-      } */
-      /* .box-hobbies{
-        grid-template-areas:
-        'box1 box1'
-        'box2 box2'
-        'box3 box4'
-        'box5 box5';
-    
-      } */
-      /* .box-edu{
-        grid-template-areas:
-        'box1'
-        'box2'
-        'box3'
-    ; */
-    
-      }
 
 
     .lain{
@@ -808,20 +775,6 @@ footer .fa{
         text-align: center;
         margin-bottom: -1rem;
     }
-    /* .card-row{
-        width: 32%;
-        background:rgb(209, 204, 204);
-        padding: 1rem 3rem;
-        text-align: center;
-        color: #1f1a1b;
-    } */
-    /* .icon .fa{
-        width: 15vh;
-        height: 15vh;
-        border-radius: 50%;
-        font-size: 4.5rem;
-
-    } */
 
 
   
@@ -910,7 +863,7 @@ footer .fa{
     /* header------------------------------------------ */
     .big-header{
         padding:40px 40px 0px 40px;
-        height: 50vh;
+        height: 60vh;
     }
     .small-header{
         padding:25px 40px 10px 40px;
@@ -1103,7 +1056,7 @@ footer .fa{
 
 @media(max-width:500px){
     body{
-        background: rgb(15, 161, 35);
+        background: rgb(10, 99, 105);
     }
     .header .logo{
         display: none;
@@ -1227,8 +1180,26 @@ footer .fa{
           .word .p{
             display: none;
         }
+        .word{
+            text-align: center;
+
+            width: 100%;
+            margin: auto;
+           
+        }
+        .coard-skill{
+            padding: 0;
+        }
+
         .word .btn{
-            width: 30%;
+          width: 30%;
+        }
+        .infor input,.text-area{
+            border: none;
+            background: rgba(201, 194, 194, 0.665);
+        }
+        .exper{
+            display: block;
         }
         .exper  h2{
             font-size: 1.2rem;
@@ -1236,6 +1207,7 @@ footer .fa{
         .text p{
             font-size: 0.8rem;
         }  
+      
 
         /* col-row */
         .main-contact{
@@ -1247,21 +1219,24 @@ footer .fa{
             width: 79%;
             margin-bottom: 1.3rem;
         }
-        /* main-map-from */
-
         .main-map-form{
-            display: block;
+            flex-wrap: wrap;
         }
-        .form{
-            width: 100%;
-        }
-        .map{
+        .map,.form{
             width: 100%;
         }
         .head{
             text-align: center;
         }
-
+        .pra .t{
+            display: none;
+        }
+        .icon .fa{
+            width: 18vh;
+            height: 18vh;
+            font-size: 4.5rem;
+    
+        }
 
 
 
