@@ -140,6 +140,10 @@ i span{
 .coard-col:hover{
     box-shadow: 0 0.5rem 1rem #FB3B52;
 }
+.coard-col .btn a{
+    text-decoration: none;
+    color: wheat;
+}
 
 .coard-ed img{
     width: 35%;
@@ -739,16 +743,21 @@ footer .fa{
     
     }
     /* coard-col */
-    .coard-col{
-        display: block;
-        text-align: center;
-    }
+
     .coard-col img{
-        width: 42%;
-        margin-right: 0;
+       
     }
-    .coard-col .d{
+    .coard-col h1{
+        font-size: 1.8rem;
+
+    }
+     .d{
        display: none;
+    }
+    .coard-homet h1{
+   
+        margin-bottom: -0.5rem;
+        margin-top: -0.2rem;
     }
     
 
@@ -760,50 +769,37 @@ footer .fa{
         font-size: 1.8rem;    
 
     }
-    .nam-header:hover{
+    /* .nam-header:hover{
         text-shadow:0 0.1rem 1rem#FB3B52;
-    }
+    } */
 
     /* box */
-    .box{
-        /* padding: 0; */
-    }
-    .box-home{
+
+    /* .box-home{
         grid-template-areas:
         'box1 box1'
         'box2 box2'
         'box3 box4'
         'box5 box5';
     
-      }
-      .box-hobbies{
+      } */
+      /* .box-hobbies{
         grid-template-areas:
         'box1 box1'
         'box2 box2'
         'box3 box4'
         'box5 box5';
     
-      }
-      .box-edu{
+      } */
+      /* .box-edu{
         grid-template-areas:
         'box1'
         'box2'
         'box3'
-    ;
+    ; */
     
       }
-      .exper{
-        display: block;
-    }
-    .exper  .word{
-        width: 98%;
-        text-align: center;
-    }
-    .exper .gra{
-        width: 88%;
-        padding: 0;
-        margin: auto;
-    }
+
 
     .lain{
         display: flex;
@@ -812,20 +808,20 @@ footer .fa{
         text-align: center;
         margin-bottom: -1rem;
     }
-    .card-row{
+    /* .card-row{
         width: 32%;
         background:rgb(209, 204, 204);
         padding: 1rem 3rem;
         text-align: center;
         color: #1f1a1b;
-    }
-    .icon .fa{
+    } */
+    /* .icon .fa{
         width: 15vh;
         height: 15vh;
         border-radius: 50%;
         font-size: 4.5rem;
 
-    }
+    } */
 
 
   
