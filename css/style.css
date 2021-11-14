@@ -606,13 +606,22 @@ i span{
         width: 100%;
         width: 30%;
         margin: auto;
-        text-align: center;
+        /* text-align: center; */
         padding: 15px;
         margin-top: 1rem;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
 
     }
+  
     ::placeholder{
         font-size: 1.2rem;
+    }
+    .btn a{
+        text-decoration: none;
+        color: wheat;
     }
   
 
@@ -713,9 +722,7 @@ footer .icons .fa{
 
 /* reponsive header--------------------------------------------- */
 @media(max-width:1390px){
-    body{
-        background: rgb(7, 177, 112);
-    }
+
     /* header------------------------------------------ */
     .big-header{
         padding:40px 40px 0px 40px;
@@ -887,9 +894,7 @@ footer .icons .fa{
 
 /* reponsive header--------------------------------------------- */
 @media(max-width:1024px){
-    body{
-        background: rgb(70, 5, 5);
-    }
+
     /* header------------------------------------------ */
     .big-header{
         padding:40px 40px 0px 40px;
@@ -1097,9 +1102,6 @@ footer .icons .fa{
 
 
 @media(max-width:500px){
-    body{
-        background: rgb(10, 99, 105);
-    }
     .header .logo{
         display: none;
     }
@@ -1173,7 +1175,7 @@ footer .icons .fa{
     /* nam-header */
     .nam-header{
         border-bottom: 2px solid #FB3B52 ;
-        font-size: 1.3rem;
+        font-size: 1.06rem;
         width: 30%;
         margin-top:-1rem ;
         margin-bottom: 1rem;
