@@ -1255,10 +1255,11 @@ footer .icons .fa{
         .main-contact{
             display: block;
             width: 100%;
+            margin: 0;
         }
         .card-row{
             margin: 0;
-            width: 79%;
+            width: 80%;
             margin-bottom: 1.3rem;
         }
         .main-map-form{
