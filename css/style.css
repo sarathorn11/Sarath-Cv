@@ -621,7 +621,7 @@ i span{
     }
     .btn a{
         text-decoration: none;
-        color: wheat;
+        color: white;
     }
   
 
@@ -1111,15 +1111,15 @@ footer .icons .fa{
         margin: auto;
     }
     .big-header{
-        background: #2f2f2f;
-        height: 30vh;
+        background: #2f2f2f9e;
+        height: 25vh;
         position: sticky;
         top: 0;
         z-index: 99999;
     }
     .small-header{
-        background: #2f2f2f;
-        padding: 7vh;
+        background: #2f2f2f9e;
+        padding: 3vh;
         position: sticky;
         top: 0;
         z-index: 99999;
@@ -1251,7 +1251,6 @@ footer .icons .fa{
         .text p{
             font-size: 0.8rem;
         }  
-      
 
         /* col-row */
         .main-contact{
