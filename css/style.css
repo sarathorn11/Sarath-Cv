@@ -1257,11 +1257,12 @@ footer .icons .fa{
             width: 100%;
             margin: 0;
             padding: 0;
+
         }
         .card-row{
-            margin: 0;
+            margin: auto;
             padding: 10%;
-            width: 80%;
+            width: 77%;
             margin-bottom: 1rem;
         }
         .main-map-form{
@@ -1280,6 +1281,8 @@ footer .icons .fa{
             width: 19vh;
             height: 19vh;
             font-size: 5rem;
+            margin: 0;
+            padding: 0;
     
         }
         .box-exper{
