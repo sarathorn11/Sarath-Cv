@@ -1256,11 +1256,13 @@ footer .icons .fa{
             display: block;
             width: 100%;
             margin: 0;
+            padding: 0;
         }
         .card-row{
             margin: 0;
+            /* padding: 0; */
             width: 80%;
-            margin-bottom: 1.3rem;
+            margin-bottom: 1rem;
         }
         .main-map-form{
             flex-wrap: wrap;
