@@ -215,9 +215,28 @@ i span{
     'box5 box5 box5 box5 box5';
 
   }
+  .box-exper{
+      width: 100%;
+      display: flex;
+
+      
+  }
+  .ex1 img{
+      width: 32%;
+      margin: 10px;
+  }
+  .ex2 img{
+    width: 24.3%;
+    margin: 5px;
+
+
+  }
+
+
   .box-edu{
     grid-template-areas:
     'box1 box2 box3';
+ 
 
   }
   .boxs a{
@@ -401,6 +420,9 @@ i span{
  
 
     }
+
+
+
 
     /* coard-skill---------------------------------- */
 
@@ -641,16 +663,23 @@ footer .menu{
     text-align: center;
     width: 22%;
 }
+.footer .infor .btn .fa{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    margin-left:-1.5rem;
+    padding: 0;
+}
 .footer .icons{
     display: flex;
     justify-content: center;
 }
-footer .fa{
-    width: 4.8rem;
-    height: 4.8rem;
+footer .icons .fa{
+    width: 3.5rem;
+    height: 3.5rem;
     margin: 5px;
     background: rgba(20, 20, 20, 0.897);
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     border-radius: 50%;
     border: 2px solid black;
     display: flex;
@@ -668,7 +697,8 @@ footer .fa{
     font-size: 1.2rem;
 }
 .footer .infor .btn{
-    padding: 20px 45px;
+    padding: 10px 14px;
+    height: 44px;
 }
 
 
@@ -1006,6 +1036,18 @@ footer .fa{
     }
 
 
+    .ex1 img{
+        width: 32%;
+        margin: 7px;
+    }
+    .ex2 img{
+      width: 24.3%;
+      margin: 3px;
+  
+  
+    }
+
+
   
 
 
@@ -1237,6 +1279,22 @@ footer .fa{
             font-size: 4.5rem;
     
         }
+        .box-exper{
+            width: 100%;
+            display: block;
+      
+            
+        }
+        .ex1 img{
+            width: 100%;
+            margin: 5px 0;
+        }
+        .ex2 img{
+          width: 100%;
+          margin: 5px 0;
+      
+      
+        }
 
 
 
@@ -1262,11 +1320,11 @@ footer .fa{
     }
 
 
-    footer .fa{
-        width: 3rem;
-        height: 3rem;
+    footer .icons .fa{
+        width:2.5rem;
+        height: 2.5rem;
         margin: 2px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     footer h1{
 
