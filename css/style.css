@@ -587,7 +587,7 @@ i span{
         box-sizing: border-box;
         outline: none;
         border: none;
-        background: rgba(236, 232, 232, 0.664);
+        background: rgba(255, 255, 255, 0.508);
 
 
 
@@ -604,7 +604,7 @@ i span{
         padding: 20px 30px;
         box-sizing: border-box;
         outline: none;
-        background: rgba(236, 232, 232, 0.664);
+        background: rgba(255, 255, 255, 0.508);
     }
     .form .btn{
         width: 100%;
