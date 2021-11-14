@@ -142,7 +142,7 @@ i span{
 }
 .coard-col .btn a{
     text-decoration: none;
-    color: wheat;
+    color: white;
 }
 
 .coard-ed img{
@@ -530,7 +530,7 @@ i span{
 
     .icon .fa{
         font-size: 6rem;
-        border: 4px solid black;
+        border: 3px solid black;
         color: white;
         width: 20vh;
         height: 20vh;
@@ -586,6 +586,9 @@ i span{
         padding: 20px 30px;
         box-sizing: border-box;
         outline: none;
+        border: none;
+        background: rgba(236, 232, 232, 0.664);
+
 
 
     }
@@ -601,6 +604,7 @@ i span{
         padding: 20px 30px;
         box-sizing: border-box;
         outline: none;
+        background: rgba(236, 232, 232, 0.664);
     }
     .form .btn{
         width: 100%;
